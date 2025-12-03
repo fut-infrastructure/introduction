@@ -99,8 +99,6 @@ De applikationsvendte kapabiliteter, som giver mulighed for at bygge en anvender
 
 Tilføj data og proces capability, gør drift, support og devops tydligere (evt eget lag?) og huske også koder og terminologi, tilføj også planer og spørgeskemaer
 
-omdøb til eksterne data og services
-
 I de følgende afsnit introduceres hovedprocesserne for forretningskapabiliteterne kort. Senere i dokumentet gennemgås de vigtigste processer set fra en anvenderløsnings perspektiv.
 
 ## Patienter og Pårørende
@@ -178,8 +176,6 @@ I dette afsnit gennemgås det, hvordan forretningsarkitekturen er realiseret i e
 I dette afsnit introduceres det kort, hvordan forretningsarkitekturen er realiseret. Som det ses af nedenstående illustration er ansvaret for applikationen delt mellem anvenderløsningen og FUT Services. Anvenderløsningens ansvar er at lave en borger- og klinikervendt service i form af backend service med et tilhørende interface. Anvenderløsningen bruger FUT-Infrastrukturen services og leveres som en komponent, der driftes i samme miljø som infrastrukturen, konkret via Kubernetes. Desuden kan anvenderløsningen indeholde en frontend, som udstiller services til borgere og sundhedspersonale. Deployment varetages af tværgående DevOps processer og værktøjer, mens  Sikkerheden varetages af Keycloak.
 
 ![Billede](images/anvender-applikation.png)
-
-... tilføj devops pipeline...
 
 I de følgende afsnit introduceres services i infrastrukturen kort med henblik på at give overblik i forhold til anvenderløsninger. Der gives endvidere eksterne referencer til yderligere dokumentation.
 
@@ -364,15 +360,3 @@ Underprocesserne beskrives i den følgende tabel.
 | Afslut aktivitets-relaterede opgaver | Afslutte de opgaver til sundhedspersonale, som er oprettet for tidligere konstateret manglende gennemførsel af borgeraktivitet når aktiviteten er gennemført. |  FUT-I kan under afviklingen af beslutningsstøtte konstatere, om den aktivitet, som borgeren har udført er udført senere end den var planlagt I såfald kan underprocessen manglende aktivitet have oprettet en task til careteamet. Denne tilknyttede taks kan i givet fald lukkes. | [Task](https://build.fhir.org/ig/fut-infrastructure/implementation-guide/StructureDefinition-ehealth-task.html)|
 
 
-
-... omdøb Afslutning af tilhørende tasks i tegningen...
-
-# Teknologi
-
-FHIR Microservice begrænsninger
-
-query på tværs
-
-transactions
-
-Miljøer
