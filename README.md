@@ -67,7 +67,7 @@ Af nedenstående tabel fremgår de mest anvendte begreber i FUT Infrastrukturen.
 | Begreb | Beskrivelse | Forkortelse | Kilde |
 | --- | --- | --- | --- |
 | FUT Infrastruktur | Den samlede tekniske løsning, der tilbyder services til anvenderløsninger | FUT-I | FUT-S |
-| FUT Systemforvaltning |   | FUT-S | FUT-S |
+| FUT Systemforvaltning | Den organisation, der forvalter FUT Infrastrukturen i forhold til vedligehold, udbygning, compliance og økonomi  | FUT-S | FUT-S |
 | Anvenderløsning | En borger og/eller klinikerrettet applikation, der bygger på FUT-I |   | FUT-S |
 | FHIR | En standard for modellering og anvendelse af sundhedsdata | FHIR |   |
 | Kubernetes | En moderne løsning for drift af IT Systemer | K8S, k8s |   |
